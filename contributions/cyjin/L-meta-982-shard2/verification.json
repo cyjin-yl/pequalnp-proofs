@@ -1,0 +1,43 @@
+{
+  "author": "cyjin",
+  "github_account": "cyjin-yl",
+  "gap": "L-meta-982",
+  "shard": 2,
+  "shard_count": 31,
+  "scope": "Exact third conjunct only: n7-034, seven inputs, edges 01 02 03 04 12 35 46; no allowed circuit of at most nine gates.",
+  "status": "ACCEPTED by project checker run locally in CT102",
+  "upstream_pull_request": null,
+  "complete_31_conjunct_gap_proved": false,
+  "checker_mode": "check",
+  "checker_exit_code": 0,
+  "kernel_rechecked_constants": 1350,
+  "axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checked_repository_commit": "4398ba43fb9b0ae5702ca0d17df8a194d70d9ccc",
+  "checker_sha256": "ff364093d77858fcb529a6588016d2a6433fd79e41c9ecba9bff5ef09e913a2c",
+  "checker_log_sha256": "5c9406c243dd9308514f7279a7ae74add30f3affb5c745d17aa8f6e374fc57ed",
+  "lean_file_sha256": "6981e505c6bc102a9f11c3ca07211b1213617519fae296ff5c0174c5212322eb",
+  "program_sha256": "4ca9208db34e2aead5165b0cf4d1cb34733bc0867e86ed940ece5074e6254c47",
+  "checker_started_utc": "2026-11-23T20:39:15Z",
+  "checker_finished_utc": "2026-11-23T20:52:13Z",
+  "desk_response": {
+    "released": "L-meta-982",
+    "reason": "exhausted"
+  },
+  "search_method": "Gate-elimination certificate discovery, with Lean kernel validation of the full assigned no-witness range. This is not circuit-by-circuit enumeration.",
+  "visited_restricted_truth_tables": 189,
+  "certificate_nodes": 7,
+  "earlier_sat_runs": [
+    {
+      "seconds": 120,
+      "result": "UNKNOWN"
+    },
+    {
+      "seconds": 300,
+      "result": "UNKNOWN"
+    }
+  ]
+}

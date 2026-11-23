@@ -1,0 +1,16 @@
+{
+  "gap": "L-meta-982",
+  "shard": 2,
+  "shards": 31,
+  "claim": "Exact third conjunct only; Lean checking is required.",
+  "derived_lower_bound": 10,
+  "visited_states": 189,
+  "certificate_nodes": 7,
+  "program_sha256": "4ca9208db34e2aead5165b0cf4d1cb34733bc0867e86ed940ece5074e6254c47",
+  "trace_sha256": "c05d173384000bb2a89fe085f91be809666b74a333f28abedaea353146dbb929",
+  "lean_sha256": "6981e505c6bc102a9f11c3ca07211b1213617519fae296ff5c0174c5212322eb",
+  "upstream_sources": {
+    "lean/PEqualNP/Outside/L_meta_468.lean": "34d422b99e0082230f3fbe3273b037f34f00b1a38044b8f95341386fba7592c5",
+    "lean/PEqualNP/MetaComplexity/Helpers/TableSearch.lean": "e44ac54a9cfa241091961d2cccb525ec20374bac450766dc5df5b0622c1c43bd"
+  }
+}
